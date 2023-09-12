@@ -1,0 +1,324 @@
+/* This is the HTML document for Aimee Salt's portfolio; first draft September 2023 */
+
+/* why is there sideways scroll on my page? */
+
+/* styles ------------------------------------------------------------------------------------------------ */
+
+body {
+    font-family: 'Yaldevi', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: 20px;
+    margin: 0;
+    bottom: 0;
+  }
+
+.padded-content{
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+section{
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+h1{
+    font-family: Yaldevi;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+h2{
+    font-family: Yaldevi;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+h3{
+    font-family: Yaldevi;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+ h4{
+    font-family: Yaldevi;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+h5{
+    font-family: Yaldevi;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 14px;
+    letter-spacing: 0.96px;
+    text-transform: capitalize;
+  }
+
+p{
+    width: 607px;
+    font-family: Yaldevi;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+
+ul{
+    text-decoration: none;
+    list-style: none;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  table{
+    border-collapse: collapse;
+    border: none;
+  }
+
+/* header and navigation----------------------------------------------------------------------------------- */
+  .header{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .header-logo{
+    display: flex;
+    align-items: center;
+  }
+
+  .header-logo h4{
+    min-width: 150px; /* sets minimum width of text beside logo to keep it within 2 lines of text*/
+    color: #939395;
+  }
+
+  .main-navigation{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .main-navigation a{
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+    }
+
+  /* hero band----------------------------------------------------------------------------------------------- */
+
+  .hero{
+    display: flex;
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+
+  /* what we do --------------------------------------------------------------------------------------------- */
+
+  .what-we-do{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    width: 100%;
+  }
+
+  .what-we-do h1{
+    padding:none;
+  }
+
+  .what-we-do-content{
+    display: inline-block;
+    padding: none;
+  }
+
+  .client-logos{ /*setting container dimensions for client logos */
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    padding: 50px;
+    column-count: 2;
+    column-gap: 10px;
+  }
+
+  /* how to adjust spacing between logo images? */
+
+  .buttons{
+    display: flex;
+    gap: 50px;
+  }
+
+
+  /* our work --------------------------------------------------------------------------------------------- */
+
+  .our-work{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .buttons{
+    display: flex;
+    gap: 50px;
+  }
+
+
+  /* our services --------------------------------------------------------------------------------------------- */
+
+  .our-services{
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+
+  .table services-table{
+    table-layout: fixed;
+    width: 100%;
+  }
+
+  td{
+    height: 100px;
+    vertical-align: middle;
+  }
+
+  .buttons{
+    display: flex;
+    gap: 50px;
+  }
+  /* how to add padding at the bottom of the table to increase space between table and buttons? */
+
+  /* let's connect --------------------------------------------------------------------------------------------- */
+
+  .lets-connect{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+
+  /* footer-------------------------------------------------------------------------------------------------- */
+
+  .footer{
+    display: flex;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px; /*the white space above the logo is approx 30px*/
+    padding-bottom: 50px;
+  }
+
+  .footer-left{
+    align-content: space-evenly;
+  }
+
+  .footer-right{
+    align-content: right;
+    text-align: right;
+    line-height: 3;
+  }
+
+  .footer-info{
+    padding-bottom: 30px;
+  }
+
+  .footer-logo{
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-logo h4{
+    min-width: 150px; /* sets minimum width of text beside logo to keep it within 2 lines of text*/
+    color: #939395;
+  }
+
+  .footer-navigation{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .socials-icons{
+    padding-top: 50px;
+  }
+
+
+  /* components---------------------------------------------------------------------------------------------- */
+
+button{
+    display: inline-flex;
+    padding: 15px 60px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    font-size: larger;
+    font-family:'Yaldevi', sans-serif; ;
+}
+
+.primary{
+    border-radius: 8px;
+    background: var(--primary-yellow, #EA0);
+    border: 1px solid var(--primary-yellow, #EA0);
+}
+
+.primary:hover{
+    border-radius: 8px;
+    background: #FFC637;
+    border: 1px solid var(--primary-yellow-hover, #FFC637);
+}
+
+.primary:disabled{
+    border-radius: 8px;
+    background: rgba(238, 170, 0, 0.50);
+}
+
+.secondary{
+    border-radius: 8px;
+    border: 1px solid var(--mono-black, #252525);
+    background: none;
+}
+
+.secondary:hover{
+    border-radius: 8px;
+    border: 1px solid var(--mono-grey-3, #B5B5B5);
+}
+
+.secondary:disabled{
+    border-radius: 8px;
+    border: 1px solid var(--mono-grey-3, #B5B5B5);
+    opacity: 0.3;
+}
+
+.alt{
+    border-radius: 8px;
+    background: var(--primary-blue, #16264C);
+}
+
+.alt:hover{
+    border-radius: 8px;
+    background: #28468D;
+}
+
+.alt:disabled{
+    border-radius: 8px;
+    background: rgba(22, 38, 76, 0.50);
+}

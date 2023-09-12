@@ -1,0 +1,169 @@
+<!-- This is the HTML document for Aimee Salt's portfolio; first draft September 2023 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- adding the google font family 'Yaldevi' -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <!--'padded-content' class is to allow the footer background to extend to the full width of the window-->
+    <div class="padded-content"> 
+        <header class="header">
+            <a href="index.html">
+                <div class="header-logo">
+                    <img src="./images/logo-desktop.svg" alt="logo saying salt">
+                    <h4>UX/UI Designer &<br/>Creative Technologist</h4>
+                </div>
+            </a>
+            <!-- navigation uses ul tag to better accessiblity for text to speech converters -->
+            <ul class="main-navigation">
+                <a href="#"><li ><h3>About</h3></li></a>
+                <a href="#"><li ><h3>Work</h3></li></a>
+                <a href="#"><li ><h3>Fun</h3></li></a>
+                <a href="#"><li ><h3>Contact</h3></li></a>  
+            </nav>
+        </header>    
+
+        <section class="hero">
+            <div>
+                <h1>We are interactive<br>experience designers.</h1>
+            </div>
+            <div class="hero-seal">
+                <img src="./images/seal1.svg" alt="traditional Chinese seal for the name Salt">
+            </div>
+        </section>
+
+
+        <section class="what-we-do">
+            <div>
+                <h1>What we do</h1>
+               <!-- putting text and logos into <span> tags so they align inline -->
+                <span class="what-we-do-content">
+                    <p>We explore the relationship between creative technology and storytelling.</p>
+                    <p>We have been designing experiences for six years, working on projects with clients including Universal Studios, Merlin Entertainment, Legoland, Jaguar Land Rover and The Science Museum Group.</p>
+                </span>
+                 <!-- adding a section to create a container with restricted dimentions for the client logos -->
+                <span class="client-logos">
+                    <img src="./images/client-logos/universal-logo.svg" alt="universal parks and resorts logo">
+                    <img src="./images/client-logos/jlr-logo.svg" alt="jaguar land rover logo">
+                    <img src="./images/client-logos/smg-logo.svg" alt="science museum group logo">
+                    <img src="./images/client-logos/legoland-logo.svg" alt="legoland logo">
+                </span>
+
+                <div class="buttons">    
+                    <button class="secondary" type="button">About us</button>
+                    <button class="primary" type="button">Contact us</button>
+                </div>
+            </div>
+        </section>   
+
+        <section class="our-work">
+            <div>
+                <h1>Our Work</h1>
+               <!-- putting text and image into <span> tags so they align inline -->
+                <span class="case-study">
+                    <img src="./images/case-studies/the-congo-tree.svg" alt="image of The Congo Tree desktop and mobile redesigned website">
+                </span>
+                <span class="our-work-content">
+                    <p>After 10 years of their incredible work and growth, we partnered with The Congo Tree to <b>redesign and develop</b> their website to better reflect who they are today.</p>
+                </span>
+                <div class="buttons">    
+                    <button class="secondary" type="button">About us</button>
+                    <button class="primary" type="button">Contact us</button>
+                </div>
+            </div>
+        </section> 
+
+
+
+
+
+        <section class="our-services">
+            <div>
+                <h1>Our Services</h1>
+               <!-- putting text and logos into <span> tags so they align inline -->
+                <table class="services-table">
+                    <tr>
+                      <td><h2>User Interface Design</h2></td>
+                      <td><h4>Making great user interfaces using a combination of graphic design techniques, information architecture, wireframing and prototyping.</h4></td>
+                    </tr>
+                    <tr>
+                      <td><h2>Accessible and Inclusive Design</h2></td>
+                      <td><h4>Designing for accessibility doesn’t have to take away the ‘wow’ factor - using thoughtful design, research and testing, we can bring the delights of great design to even wider audiences.</h4></td>
+                    </tr>
+                    <tr>
+                      <td><h2>Technical Writing</h2></td>
+                      <td><h4>Developers and maintenance teams are users too! We work hard to produce accurate and detailed documentation to support all designs - whether they are ours or someone else’s.</h4></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><h4>We use a collection of tools that allow smooth collaboration with our clients. These include Figma, Unity, Microsoft 365, Google Drive, Confluence, Asana and Trello. </h4></td>
+                </table>
+    
+                <div class="buttons">    
+                    <button class="secondary" type="button">About us</button>
+                    <button class="primary" type="button">Contact us</button>
+                </div>
+            </div>
+        </section>  
+
+        <section class="lets-connect">
+            <div>
+                <h4>Want to add some flavour to your projects?</h4>
+                <h1>Let's Connect</h1>
+                <button class="primary" type="button">Contact us</button>
+            </div>
+        </section>  
+
+
+    </div>
+
+    <footer class="footer">
+        <!-- footer has been divided into 'left' and 'right' sections for easier flex wrapping and alignment -->
+        <div class="footer-left">
+            <a href="index.html">
+                <div class="footer-logo">
+                    <img src="./images/logo-desktop.svg" alt="logo saying salt">
+                    <h4>UX/UI Designer &<br/>Creative Technologist</h4>
+                </div>
+            </a>
+            <div class="footer-info">
+                <h4>salt is a UX/UI designer and creative<br>technologist who has been based in<br>the UK, Malaysia, USA and Japan.</h4>
+            </div>
+            <a href="index.html">
+                <div class="footer-seal">
+                    <img src="./images/seal1.svg" alt="traditional Chinese seal for the name Salt">
+                </div>
+            </a>
+        </div>
+        <!-- this section should mirror available links in the main navigation - perhaps I will add more as time goes on? -->
+        <ul class="footer-navigation">
+            <a href="#"><li >About</li></a>
+            <a href="#"><li >Work</li></a>
+            <a href="#"><li >Fun</li></a>
+            <a href="#"><li >Contact</li></a> 
+        </ul> 
+        <div class="footer-right">
+            <ul class="footer-details">
+                <a href="#"><li>email address</li></a>
+                <a href="#"><li>phone number</li></a>
+                <a href="#"><li>resume/CV</li></a>
+            </ul> 
+            <div class="socials-icons">
+                <a href="#"><img src="" alt="linkedin logo"></a>
+                <a href="#"><img src="" alt="medium logo"></a>
+                <a href="#"><img src="" alt="github logo"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
