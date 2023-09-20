@@ -11,7 +11,7 @@
     justify-content: space-between;
   }
 
-  /* about --------------------------------------------------------------------------------------------- */
+  /* section styles --------------------------------------------------------------------------------------------- */
 
 
   .about{
@@ -28,11 +28,19 @@
   }
 
   .skills h4{
-    line-height: 0;
+    line-height: 1;
   }
 
   .skills h3{
     padding-top: 25px;
+  }
+
+  .about p{
+    width: 100%;
+  }
+
+  .work-and-fun p{
+    width: 100%;
   }
 
   .work-and-fun{
@@ -41,10 +49,12 @@
     display: flex;    
   }
 
-  .work-and-fun-content{ /*why is this in 3 columns?>*/
+  .work-and-fun-content{
     display: flex;
     justify-content: left;
     align-items: left;
+    flex-direction: column;
+    padding-bottom: 50px;
   }
 
 
@@ -54,7 +64,46 @@
   }
 
 
-/* contact --------------------------------------------------------------------------------------------- */
+/* about-me content --------------------------------------------------------------------------------------------- */
 
+#categoryGrid{
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-areas: 
+    "picture   skills"
+    "about-me  skills"
+    ;
+  gap: 50px;
+  height: fit-content;
+}
 
+.categoryGridArea{
+  display: grid;
+  margin-bottom: 15px;
+  height: fit-content;
+}
+
+#picture{
+  grid-area: picture;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 50px; /*to align with 'skills' (h4 has padding-top)*/
+}
+
+#about-me{
+  grid-area: about-me;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#skills{
+  grid-area: skills;
+  align-items: flex-start;
+}
   
+#profile-photo{ /*to make */
+  width: 200%;
+}
