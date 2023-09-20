@@ -1,0 +1,155 @@
+<!-- This is the HTML document for Aimee Salt's portfolio; first draft September 2023 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- adding the google font family 'Yaldevi' -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <!--'padded-content' class is to allow the footer background to extend to the full width of the window-->
+    <div class="padded-content"> 
+        <header class="header">
+            <a href="index.html">
+                <div class="header-logo">
+                    <img src="./images/logo-desktop.svg" id="header-logo" alt="logo saying salt">
+                    <h4>UX/UI Designer &<br/>Creative Technologist</h4>
+                </div>
+            </a>
+            <!-- navigation uses ul tag to better accessiblity for text to speech converters -->
+            <ul class="main-navigation" id="main-navigation">
+                <a href="./about.html"><li ><h3>About</h3></li></a>
+                <a href="./case-studies.html"><li ><h3>Work</h3></li></a>
+                <a href="#"><li ><h3>Fun</h3></li></a>
+                <a href="#"><li ><h3>Contact</h3></li></a>  
+            </nav>
+        </header>    
+
+        <section class="title">
+            <div>
+                <h1>About me</h1>
+            </div>
+            <div class="hero-seal">
+                <img src="./images/seal1.svg" id="hero-seal" alt="traditional Chinese seal for the name Salt">
+            </div>
+        </section>
+
+
+        <section class="about">
+            <div class="about-content">
+                <img src="./images/profile photo.svg" alt="universal parks and resorts logo">
+                <p>I’m Ai Salt, a designer with a diverse skillset and a passion for great sensory experiences. I have been designing, building and documenting a wide range of AV solutions for six years, from world-first theme park rides to immersive exhibitions and smart spaces in the built environment.</p>
+                <p>Working across disciplines, industries and cultures has made me adaptable to change and able to handle ambiguity with confidence and positivity. It has also instilled the importance of clear communication, an open mind, and building strong relationships with the people I work with.</p>
+                <p>I understand that our humanness affects the way we interact with digital and physical spaces. I approach my work holistically and strive towards diversity, accessibility and inclusion in any project I’m involved in.</p>
+                <p>Ultimately, I want to produce great solutions with my colleagues and have fun doing it!</p>
+            </div>
+            <div class="skills">
+                <ul id="skills">
+                    <li><h3>Skills</h3></li>
+                    <li><h4>UX Design</h4></li>
+                    <li><h4>UI Design</h4></li>
+                    <li><h4>Programming and Coding (HTML, CSS, Javascript, JQuery, C#, C, Lua, Assembly, VHDL, Verilog)</h4></li>
+                    <li><h4>Research (qualitative and quantitative)</h4></li>
+                    <li><h4>Writing (technical and non-technical)</h4></li>
+                    <li><h4>Project Management</h4></li>
+                </ul>
+                <ul id="software">
+                    <li><h3>Software</h3></li>
+                    <li><h4>Figma</h4></li>
+                    <li><h4>Miro</h4></li>
+                    <li><h4>Unity</h4></li>
+                    <li><h4>QSYS</h4></li>
+                    <li><h4>Crestron</h4></li>
+                    <li><h4>Microsoft 365</h4></li>
+                    <li><h4>Google Drive</h4></li>
+                    <li><h4>Confluence</h4></li>
+                    <li><h4>Asana</h4></li>
+                    <li><h4>Trello</h4></li>
+                </ul>
+                <ul id="experience">
+                    <li><h3>Experience</h3></li>
+                    <li><h4>UX and UI Designer</h4></li>
+                    <li><h4>Front End Developer</h4></li>
+                    <li><h4>Digital Producer</h4></li>
+                    <li><h4>Design Engineer</h4></li>
+                    <li><h4>Solutions Architect (AV and AR Technologies)</h4></li>
+                    <li><h4>EDI Steering Group Member</h4></li>
+                    <li><h4>Mentor and Small Group Leader</h4></li>
+                    <li><h4>Visual Artist</h4></li>
+                    <li><h4>Casual Musician</h4></li>
+                </ul>
+                <ul id="contact">
+                    <li><h3>Contact</h3></li>
+                    <li><h4>email address</h4></li>
+                    <li><h4>linked in</h4></li>
+                    <li><h4>download résumé/CV</h4></li>
+                </ul>
+            </div>
+        </section>   
+
+        <section class="work-and-fun">
+            <div>
+                <h1>Work and fun</h1>
+                <div class="work-and-fun-content">
+                    <p>In the ‘Work’ section of this website you will find case studies and examples of previous projects I have worked on.</p>
+                    <p>The ‘Fun’ section of this website showcases what I get up to in my free time - exploring life and creativity. It will give you fuller picture of who I am, my creative style and the way I see the world.</p>
+                    <p>If you want to work with me, want some advice, or just want to connect - please get in touch!</p>
+                </div>
+                <div class="buttons">    
+                    <a href= "./case-studies.html"><button class="secondary" type="button">See more</button></a>
+                    <a href= "#"><button class="alt" type="button">Fun</button></a>
+                    <a href= "#"><button class="primary" type="button">Contact</button></a>
+                </div>
+            </div>
+        </section> 
+    </div>
+    <footer class="footer">
+        <!-- footer has been divided into 'left' and 'right' sections for easier flex wrapping and alignment -->
+        <div class="footer-left">
+            <a href="index.html">
+                <div class="footer-logo">
+                    <img src="./images/logo-desktop.svg" id="footer-logo" alt="logo saying salt">
+                    <h4>UX/UI Designer &<br/>Creative Technologist</h4>
+                </div>
+            </a>
+            <div class="footer-info">
+                <h4>salt is a UX/UI designer and creative<br>technologist who has been based in<br>the UK, Malaysia, USA and Japan.</h4>
+            </div>
+            <a href="index.html">
+                <div class="footer-seal">
+                    <img src="./images/seal1.svg" id="footer-seal" alt="traditional Chinese seal for the name Salt">
+                </div>
+            </a>
+        </div>
+        <!-- this section should mirror available links in the main navigation - perhaps I will add more as time goes on? -->
+        <ul class="footer-navigation" id="footer-navigation">
+            <a href="#"><li >About</li></a>
+            <a href="./case-studies.html"><li >Work</li></a>
+            <a href="#"><li >Fun</li></a>
+            <a href="#"><li >Contact</li></a> 
+        </ul> 
+        <div class="footer-right">
+            <ul class="footer-details">
+                <a href="#"><li>email address</li></a>
+                <a href="#"><li>phone number</li></a>
+                <a href="#"><li>résumé/CV</li></a>
+            </ul> 
+            <div class="socials-icons">
+                <a href="#"><img src="" alt="linkedin logo"></a>
+                <a href="#"><img src="" alt="medium logo"></a>
+                <a href="#"><img src="" alt="github logo"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

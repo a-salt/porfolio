@@ -1,4 +1,4 @@
-/* This is the HTML document for Aimee Salt's portfolio; first draft September 2023 */
+/* This is the CSS document for Aimee Salt's portfolio; first draft September 2023 */
 
 /* why is there sideways scroll on my page? */
 
@@ -79,6 +79,7 @@ p{
 ul{
     text-decoration: none;
     list-style: none;
+    color: black;
   }
 
   a{
@@ -126,6 +127,7 @@ ul{
     display: flex;
     padding-top: 75px;
     padding-bottom: 75px;
+    justify-content: space-between;
   }
 
   /* what we do --------------------------------------------------------------------------------------------- */
@@ -162,9 +164,9 @@ ul{
   }
 
 
-  /* our work --------------------------------------------------------------------------------------------- */
+  /* case studies --------------------------------------------------------------------------------------------- */
 
-  .our-work{
+  .case-studies{
     padding-top: 75px;
     padding-bottom: 75px;
     width: 100%;
@@ -179,7 +181,7 @@ ul{
 
   /* our services --------------------------------------------------------------------------------------------- */
 
-  .our-services{
+  .services{
     padding-top: 75px;
     padding-bottom: 75px;
   }
@@ -209,8 +211,6 @@ ul{
     justify-content: center;
     text-align: center;
   }
-
-
 
   /* footer-------------------------------------------------------------------------------------------------- */
 
@@ -271,7 +271,9 @@ button{
     gap: 10px;
     border: none;
     font-size: larger;
-    font-family:'Yaldevi', sans-serif; ;
+    font-family:'Yaldevi', sans-serif; 
+    cursor: pointer;
+    box-shadow: 0px 5px 10px grey;
 }
 
 .primary{
@@ -284,11 +286,13 @@ button{
     border-radius: 8px;
     background: #FFC637;
     border: 1px solid var(--primary-yellow-hover, #FFC637);
+    box-shadow: none;
 }
 
 .primary:disabled{
     border-radius: 8px;
     background: rgba(238, 170, 0, 0.50);
+    box-shadow: none;
 }
 
 .secondary{
@@ -300,25 +304,156 @@ button{
 .secondary:hover{
     border-radius: 8px;
     border: 1px solid var(--mono-grey-3, #B5B5B5);
+    box-shadow: none;
 }
 
 .secondary:disabled{
     border-radius: 8px;
     border: 1px solid var(--mono-grey-3, #B5B5B5);
     opacity: 0.3;
+    box-shadow: none;
 }
 
 .alt{
     border-radius: 8px;
     background: var(--primary-blue, #16264C);
+    color: white;
 }
 
 .alt:hover{
     border-radius: 8px;
     background: #28468D;
+    box-shadow: none;
 }
 
 .alt:disabled{
     border-radius: 8px;
     background: rgba(22, 38, 76, 0.50);
+    box-shadow: none;
 }
+
+/* media queries ---------------------------------------------------------------------------------------------- */
+
+/* intermediate size based on header */
+@media only screen and (max-width: 1230px) {
+
+  #header-logo, #footer-logo{
+    height: 100px;
+  }
+ 
+/* content---*/
+
+  section{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  #hero-seal, #footer-seal{
+    height: 75px;
+  }
+
+/* fonts and components---*/
+
+  h1{
+    font-size: 60px;
+  }
+
+  h2{
+      font-size: 24px;
+   }
+    
+  h3{
+      font-size: 18px;
+    }
+
+  h4{
+      font-size: 14px;
+    }
+
+  h5{
+      font-size: 8px;
+    }
+
+  p{
+      font-size: 18px;
+    }
+
+  button{
+      padding: 10px 40px;
+      gap: 5px;
+      font-size: medium;
+  }
+
+
+}
+    
+/* intermediate size based on footer */
+@media only screen and (max-width: 1400px) {
+
+  #footer-navigation{
+    display: block ;
+    line-height: 50px;
+    text-align: center;
+  }
+}
+
+/* mobile size with hamburger navigation*/
+@media only screen and (max-width: 800px) {
+
+  /* navigation bar---*/
+  
+    #main-navigation{
+        display: none;
+    }
+  
+    #header-logo{
+      height: 100px;
+    }
+   
+  /* content---*/
+  
+    section{
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+  
+    #hero-seal{
+      height: 75px;
+    }
+  
+  /* fonts and components---*/
+  
+    h1{
+      font-size: 60px;
+    }
+  
+    h2{
+        font-size: 24px;
+     }
+      
+    h3{
+        font-size: 18px;
+      }
+  
+    h4{
+        font-size: 14px;
+      }
+  
+    h5{
+        font-size: 8px;
+      }
+  
+    p{
+        font-size: 18px;
+      }
+  
+    button{
+        padding: 10px 40px;
+        gap: 5px;
+        font-size: medium;
+    }
+  
+  
+  }
+      
+

@@ -1,0 +1,60 @@
+/* This is the CSS document for Aimee Salt's portfolio; first draft September 2023 */
+
+/* why is there sideways scroll on my page? */
+
+  /* title ---------------------------------------------------------------------------------------------- */
+/* why is the logo smaller and padding less on this page?
+ */
+  .title{
+    display: flex;
+    padding-top: 75px;
+    justify-content: space-between;
+  }
+
+  /* about --------------------------------------------------------------------------------------------- */
+
+
+  .about{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+  }
+
+  .about-content{
+    padding-top: 60px;
+  }
+
+  .skills h4{
+    line-height: 0;
+  }
+
+  .skills h3{
+    padding-top: 25px;
+  }
+
+  .work-and-fun{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    display: flex;    
+  }
+
+  .work-and-fun-content{ /*why is this in 3 columns?>*/
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+
+
+  .buttons{
+    display: flex;
+    gap: 50px;
+  }
+
+
+/* contact --------------------------------------------------------------------------------------------- */
+
+
+  

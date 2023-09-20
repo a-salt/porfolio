@@ -1,0 +1,139 @@
+/* This is the CSS document for Aimee Salt's portfolio; first draft September 2023 */
+
+
+  h2, h3{
+    display: inline;
+  }
+
+  #downArrow{
+    width: 20px;
+    padding-left: 50px;
+  }
+
+  /* title----------------------------------------------------------------------------------------------- */
+
+  .title{
+    display: flex;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    justify-content: space-between;
+  }
+
+
+  /* content ---------------------------------------------------------------------------------------------- */
+
+  .case-study{
+    padding-bottom: 75px;
+  }
+
+ .toggle{
+    padding-bottom: 100px;
+ }
+
+  #dropDown1, #dropDown2, #dropDown3{
+    display:none;
+  }
+
+  #categoryGrid{
+    display: grid;
+    grid-template-rows: 500px 500px 500px 500px 500px 500px 500px 500px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "row1"
+      "row2"
+      "row3"
+      "row4"
+      "row5"
+      "row6"
+      "row7"
+      "row8"
+      ;
+
+  }
+
+  .categoryGridArea{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    align-content: end;
+    margin-bottom: 15px;
+  }
+
+  #row1{
+    grid-area: row1;
+    background-image: url("../images/case-studies/TCT/Project-Presentation-GP-2.svg");
+  }
+  
+  #row2{
+    grid-area: row2;
+    background-image: url("../images/case-studies/TCT/Project-Presentation-GP-2\ \(1\).svg");
+  }
+  
+  #row3{
+    grid-area: row3;
+    background-image: url("../images/case-studies/TCT/Project-Presentation-GP-2\ \(2\).svg");
+  }
+  
+  #row4{
+    grid-area: row4;
+    background-image: url("../images/case-studies/TCT/Project-Presentation-GP-2\ \(3\).svg");
+  }
+  
+  #row5{
+    grid-area: row5;
+    background-image: url("../images/case-studies/TCT/Project-Presentation-GP-2\ \(4\).svg");
+  }
+
+  #row6{
+    grid-area: row6;
+    background-image: url("../images/case-studies/TCT/Project-Presentation-GP-2\ \(5\).svg");
+  }
+  
+  #row7{
+    grid-area: row7;
+    background-image: url("../images/case-studies/TCT/Project-Presentation-GP-2\ \(6\).svg");
+  }
+  
+  #row8{
+    grid-area: row8;
+    background-image: url("../images/case-studies/TCT/Project-Presentation-GP-2\ \(7\).svg");
+  }
+
+/* 
+   media queries ----------------------------------------------------------------------------------------------
+   @media only screen and (max-width: 1000px) {
+    #main-navigation{
+      display: none;
+
+    }
+    
+    .icons{
+      margin-left: auto;
+    }
+  } */
+  
+  /* @media only screen and (max-width: 600px){
+    #headline{
+      position: static;
+      margin: 20px;
+    }
+  
+    #heroGrid{
+      grid-template-areas:
+      "featuredProduct featureProduct"
+      "secondaryProduct CTA";
+    }
+  
+    #categoryGrid{
+      grid-template-rows: 300px 300px 300px 300px 300px;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+      "bookcases"
+      "bedroom"
+      "patio"
+      "couches"
+      "desks";
+    } */
+  
+

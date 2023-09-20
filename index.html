@@ -20,14 +20,14 @@
         <header class="header">
             <a href="index.html">
                 <div class="header-logo">
-                    <img src="./images/logo-desktop.svg" alt="logo saying salt">
+                    <img src="./images/logo-desktop.svg" id="header-logo" alt="logo saying salt">
                     <h4>UX/UI Designer &<br/>Creative Technologist</h4>
                 </div>
             </a>
             <!-- navigation uses ul tag to better accessiblity for text to speech converters -->
-            <ul class="main-navigation">
-                <a href="#"><li ><h3>About</h3></li></a>
-                <a href="#"><li ><h3>Work</h3></li></a>
+            <ul class="main-navigation" id="main-navigation">
+                <a href="./about.html"><li ><h3>About</h3></li></a>
+                <a href="./case-studies.html"><li ><h3>Work</h3></li></a>
                 <a href="#"><li ><h3>Fun</h3></li></a>
                 <a href="#"><li ><h3>Contact</h3></li></a>  
             </nav>
@@ -35,21 +35,22 @@
 
         <section class="hero">
             <div>
-                <h1>We are interactive<br>experience designers.</h1>
+                <h1>Integrated interactive<br>experience design</h1>
+                <h2>Exploring the relationship between creative technology and storytelling</h2>
             </div>
             <div class="hero-seal">
-                <img src="./images/seal1.svg" alt="traditional Chinese seal for the name Salt">
+                <img src="./images/seal1.svg" id="hero-seal" alt="traditional Chinese seal for the name Salt">
             </div>
         </section>
 
 
         <section class="what-we-do">
             <div>
-                <h1>What we do</h1>
+                <!-- <h1>What we do</h1> -->
+                
                <!-- putting text and logos into <span> tags so they align inline -->
                 <span class="what-we-do-content">
-                    <p>We explore the relationship between creative technology and storytelling.</p>
-                    <p>We have been designing experiences for six years, working on projects with clients including Universal Studios, Merlin Entertainment, Legoland, Jaguar Land Rover and The Science Museum Group.</p>
+                    <p>Creating audio visual (AV) experiences for arts & culture, entertainment and the built environment. I've worked on projects with clients including Universal Studios, Legoland, Jaguar Land Rover and The Science Museum Group.</p>
                 </span>
                  <!-- adding a section to create a container with restricted dimentions for the client logos -->
                 <span class="client-logos">
@@ -60,38 +61,39 @@
                 </span>
 
                 <div class="buttons">    
-                    <button class="secondary" type="button">About us</button>
-                    <button class="primary" type="button">Contact us</button>
+                    <button class="secondary" type="button">About</button>
+                    <button class="primary" type="button">Contact</button>
                 </div>
             </div>
         </section>   
 
-        <section class="our-work">
+        <section class="case-studies">
             <div>
-                <h1>Our Work</h1>
+                <h1>Case Studies</h1>
                <!-- putting text and image into <span> tags so they align inline -->
                 <span class="case-study">
-                    <img src="./images/case-studies/the-congo-tree.svg" alt="image of The Congo Tree desktop and mobile redesigned website">
+                    <img src="./images/case-studies/TCT/the-congo-tree.svg" alt="image of The Congo Tree desktop and mobile redesigned website">
                 </span>
-                <span class="our-work-content">
-                    <p>After 10 years of their incredible work and growth, we partnered with The Congo Tree to <b>redesign and develop</b> their website to better reflect who they are today.</p>
+                <span class="case-study-content">
+                    <p>After 10 years of their incredible work and growth, The Congo Tree invited me to <b>redesign and develop</b> their website to better reflect who they are today.</p>
                 </span>
                 <div class="buttons">    
-                    <button class="secondary" type="button">About us</button>
-                    <button class="primary" type="button">Contact us</button>
+                    <a href= "./case-studies.html"><button class="secondary" type="button">See more</button></a>
+                    <button class="primary" type="button">Contact</button>
                 </div>
             </div>
         </section> 
 
 
-
-
-
-        <section class="our-services">
+        <section class="services">
             <div>
-                <h1>Our Services</h1>
+                <h1>Services</h1>
                <!-- putting text and logos into <span> tags so they align inline -->
                 <table class="services-table">
+                    <tr>
+                        <td><h2>Interaction Design</h2></td>
+                        <td><h4>Lorem Ipsum.</h4></td>
+                      </tr>
                     <tr>
                       <td><h2>User Interface Design</h2></td>
                       <td><h4>Making great user interfaces using a combination of graphic design techniques, information architecture, wireframing and prototyping.</h4></td>
@@ -102,15 +104,15 @@
                     </tr>
                     <tr>
                       <td><h2>Technical Writing</h2></td>
-                      <td><h4>Developers and maintenance teams are users too! We work hard to produce accurate and detailed documentation to support all designs - whether they are ours or someone else’s.</h4></td>
+                      <td><h4>Developers, maintenance and service teams are users too! I work hard to produce accurate and detailed documentation to support all designs - whether they are mine or someone else’s.</h4></td>
                     </tr>
                     <tr>
-                        <td colspan="2"><h4>We use a collection of tools that allow smooth collaboration with our clients. These include Figma, Unity, Microsoft 365, Google Drive, Confluence, Asana and Trello. </h4></td>
+                        <td colspan="2"><h4>I use a collection of tools that allow smooth collaboration with our clients. These include Figma, Unity, Microsoft 365, Google Drive, Confluence, Asana and Trello. </h4></td>
                 </table>
     
                 <div class="buttons">    
-                    <button class="secondary" type="button">About us</button>
-                    <button class="primary" type="button">Contact us</button>
+                    <button class="secondary" type="button">Learn more</button>
+                    <button class="primary" type="button">Contact</button>
                 </div>
             </div>
         </section>  
@@ -119,7 +121,7 @@
             <div>
                 <h4>Want to add some flavour to your projects?</h4>
                 <h1>Let's Connect</h1>
-                <button class="primary" type="button">Contact us</button>
+                <button class="primary" type="button">Contact</button>
             </div>
         </section>  
 
@@ -131,7 +133,7 @@
         <div class="footer-left">
             <a href="index.html">
                 <div class="footer-logo">
-                    <img src="./images/logo-desktop.svg" alt="logo saying salt">
+                    <img src="./images/logo-desktop.svg" id="footer-logo" alt="logo saying salt">
                     <h4>UX/UI Designer &<br/>Creative Technologist</h4>
                 </div>
             </a>
@@ -140,14 +142,14 @@
             </div>
             <a href="index.html">
                 <div class="footer-seal">
-                    <img src="./images/seal1.svg" alt="traditional Chinese seal for the name Salt">
+                    <img src="./images/seal1.svg" id="footer-seal" alt="traditional Chinese seal for the name Salt">
                 </div>
             </a>
         </div>
         <!-- this section should mirror available links in the main navigation - perhaps I will add more as time goes on? -->
-        <ul class="footer-navigation">
-            <a href="#"><li >About</li></a>
-            <a href="#"><li >Work</li></a>
+        <ul class="footer-navigation" id="footer-navigation">
+            <a href="./about.html"><li >About</li></a>
+            <a href="./case-studies.html"><li >Work</li></a>
             <a href="#"><li >Fun</li></a>
             <a href="#"><li >Contact</li></a> 
         </ul> 
@@ -155,7 +157,7 @@
             <ul class="footer-details">
                 <a href="#"><li>email address</li></a>
                 <a href="#"><li>phone number</li></a>
-                <a href="#"><li>resume/CV</li></a>
+                <a href="#"><li>résumé/CV</li></a>
             </ul> 
             <div class="socials-icons">
                 <a href="#"><img src="" alt="linkedin logo"></a>

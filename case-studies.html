@@ -1,0 +1,154 @@
+<!-- This is the HTML document for the case studies page of Aimee Salt's portfolio; first draft September 2023 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- adding the google font family 'Yaldevi' -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/case-studies.css">
+</head>
+
+<body>
+    <!--'padded-content' class is to allow the footer background to extend to the full width of the window-->
+    <div class="padded-content"> 
+        <header class="header">
+            <a href="index.html">
+                <div class="header-logo">
+                    <img src="./images/logo-desktop.svg" id="header-logo" alt="logo saying salt">
+                    <h4>UX/UI Designer &<br/>Creative Technologist</h4>
+                </div>
+            </a>
+            <!-- navigation uses ul tag to better accessiblity for text to speech converters -->
+            <ul class="main-navigation" id="main-navigation">
+                <a href="./about.html"><li ><h3>About</h3></li></a>
+                <a href="#"><li ><h3>Work</h3></li></a>
+                <a href="#"><li ><h3>Fun</h3></li></a>
+                <a href="#"><li ><h3>Contact</h3></li></a>  
+            </nav>
+        </header>    
+
+        <section class="title">
+            <div>
+                <h1>Case Studies</h1>
+            </div>
+            <div class="hero-seal">
+                <img src="./images/seal1.svg" alt="traditional Chinese seal for the name Salt">
+            </div>
+        </section>
+
+
+        <section class="case-study">
+            <div id="toggle1" class="toggle">
+                <h2>The Congo Tree - </h2>
+                <h3>Website redesign and development</h3> 
+                <img src="images/downArrow.png" id="downArrow">
+                <h4>We explore the relationship between creative technology and storytelling.</h4>
+                
+                <div id="dropDown1">
+                    <div id="categoryGrid">
+                        <div id="row1" class="categoryGridArea">
+                          <div class="heading"></div>
+                        </div>
+                        <div id="row2" class="categoryGridArea">
+                          <div class="heading"></div>
+                        </div>
+                        <div id="row3" class="categoryGridArea">
+                          <div class="heading"></div>
+                        </div>
+                        <div id="row4" class="categoryGridArea">
+                          <div class="heading"></div>
+                        </div>
+                        <div id="row5" class="categoryGridArea">
+                          <div class="heading"></div>
+                        </div>
+                        <div id="row6" class="categoryGridArea">
+                          <div class="heading"></div>
+                        </div>
+                        <div id="row7" class="categoryGridArea">
+                          <div class="heading"></div>
+                        </div>
+                        <div id="row8" class="categoryGridArea">
+                          <div class="heading"></div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div id="toggle2" class="toggle">
+                <h2>Case study 2 - </h2>
+                <h3>Website redesign and development</h3> 
+                <img src="images/downArrow.png" id="downArrow">
+                <h4>We explore the relationship between creative technology and storytelling.</h4>
+                <div id="dropDown2">
+                    <img src="./images/case-studies/the-congo-tree.svg" alt="universal parks and resorts logo">
+                </div>
+            </div>
+
+            <div id="toggle3" class="toggle">
+                <h2>Case study 3 - </h2>
+                <h3>Website redesign and development</h3> 
+                <img src="images/downArrow.png" id="downArrow">
+                <h4>We explore the relationship between creative technology and storytelling.</h4>
+                <div id="toggle">
+                    <span id="dropDown3">
+                        <img src="./images/case-studies/the-congo-tree.svg" alt="universal parks and resorts logo">
+                    </span>
+                </div>
+            </div>    
+
+
+            <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+            <script src="styles/case-studies.js"></script>  
+
+        </section>   
+    </div>
+
+    <footer class="footer">
+        <!-- footer has been divided into 'left' and 'right' sections for easier flex wrapping and alignment -->
+        <div class="footer-left">
+            <a href="index.html">
+                <div class="footer-logo">
+                    <img src="./images/logo-desktop.svg" id="footer-logo" alt="logo saying salt">
+                    <h4>UX/UI Designer &<br/>Creative Technologist</h4>
+                </div>
+            </a>
+            <div class="footer-info">
+                <h4>salt is a UX/UI designer and creative<br>technologist who has been based in<br>the UK, Malaysia, USA and Japan.</h4>
+            </div>
+            <a href="index.html">
+                <div class="footer-seal">
+                    <img src="./images/seal1.svg" id="footer-seal" alt="traditional Chinese seal for the name Salt">
+                </div>
+            </a>
+        </div>
+        <!-- this section should mirror available links in the main navigation - perhaps I will add more as time goes on? -->
+        <ul class="footer-navigation">
+            <a href="about.html"><li >About</li></a>
+            <a href="#"><li >Work</li></a>
+            <a href="#"><li >Fun</li></a>
+            <a href="#"><li >Contact</li></a> 
+        </ul> 
+        <div class="footer-right">
+            <ul class="footer-details">
+                <a href="#"><li>email address</li></a>
+                <a href="#"><li>phone number</li></a>
+                <a href="#"><li>résumé/CV</li></a>
+            </ul> 
+            <div class="socials-icons">
+                <a href="#"><img src="" alt="linkedin logo"></a>
+                <a href="#"><img src="" alt="medium logo"></a>
+                <a href="#"><img src="" alt="github logo"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
