@@ -11,7 +11,6 @@ body {
     font-weight: 275;
     line-height: 20px;
     margin: 0;
-    bottom: 0;
   }
 
 .padded-content{
@@ -89,7 +88,16 @@ ul{
   table{
     border-collapse: collapse;
     border: none;
+    table-layout: fixed;
+    width: 100%;
   }
+
+  td{
+    height: 100px;
+    vertical-align: middle;
+    justify-content: left;
+  }
+
 
 /* header and navigation----------------------------------------------------------------------------------- */
   .header{
@@ -186,15 +194,15 @@ ul{
     padding-bottom: 75px;
   }
 
-  .table services-table{
+  /* .table services-table{
     table-layout: fixed;
     width: 100%;
-  }
+  } */
 
-  td{
+  /* td{
     height: 100px;
     vertical-align: middle;
-  }
+  } */
 
   .buttons{
     display: flex;

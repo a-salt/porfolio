@@ -9,30 +9,71 @@
     display: flex;
     padding-top: 75px;
     justify-content: space-between;
+    padding-bottom: 0;
   }
 
+<<<<<<< Updated upstream
   /* about --------------------------------------------------------------------------------------------- */
 
+=======
+  /* about me content --------------------------------------------------------------------------------------------- */
+>>>>>>> Stashed changes
 
   .about{
     padding-top: 75px;
     padding-bottom: 75px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: top;
+    flex-wrap:wrap;
+    column-gap: 50px;
+    align-items: flex-start;
   }
 
-  .about-content{
-    padding-top: 60px;
+  .about-me{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+  
+  .skills{
+    width: 30%;
   }
 
+<<<<<<< Updated upstream
   .skills h4{
     line-height: 0;
+=======
+  /* target the styling for the ul and li, don't use h3 and h4s (for accessibility) */
+  /* check width of content - should have a single container that detrmines the width of the content. quickfix is to put overflow-x in css, targeting the body tag.*/
+ /* if i have width of 100%, padding will make the thing wider than the screen*/
+ /* use max width and margins - this will centre things instead of padding. it's also a fluid layout*/
+ /*put the a tags inside the li tags in the footer*/
+ /*no need to use a grid for one directional layout - use flexbox instead. flex box is a simpler version of grid*/
+ /* remember, by default, everthing stacks vertically. you can use this knowledge to remove anything in the css/html that is vertically aligning any of the content*/
+
+ /* .preloader img{
+  animation: spin 3s ease;
+  width: 150px;
+  margin: 0 auto; /*why do I need this to put it into the center? automargin centers things. by default everything is left aligned here, 0 is for top & bottom,auto is for left and right*/
+  /* trasitions is for transitioning between two states */
+
+
+  .skills li{
+    line-height: normal;
+    font-family: Yaldevi;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+  }
+
+  .skills ul{
+   padding: 0;
+   margin-top: 0;
+>>>>>>> Stashed changes
   }
 
   .skills h3{
-    padding-top: 25px;
+    margin: 0;
   }
 
   .work-and-fun{
@@ -51,6 +92,7 @@
   .buttons{
     display: flex;
     gap: 50px;
+<<<<<<< Updated upstream
   }
 
 
@@ -58,3 +100,6 @@
 
 
   
+=======
+  }
+>>>>>>> Stashed changes

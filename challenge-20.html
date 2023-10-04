@@ -1,0 +1,184 @@
+<!-- This is the HTML document for the case studies page of Aimee Salt's portfolio; first draft September 2023 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- adding the google font family 'Yaldevi' -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/challenge-20.css">
+</head>
+
+<body>
+    <!--'padded-content' class is to allow the footer background to extend to the full width of the window-->
+    <div class="padded-content"> 
+        <header class="header">
+            <a href="index.html">
+                <div class="header-logo">
+                    <img src="./images/logo-desktop.svg" id="header-logo" alt="logo saying salt">
+                    <h4>UX/UI Designer &<br/>Creative Technologist</h4>
+                </div>
+            </a>
+            <!-- navigation uses ul tag to better accessiblity for text to speech converters -->
+            <ul class="main-navigation" id="main-navigation">
+                <a href="./about.html"><li ><h3>About</h3></li></a>
+                <a href="#"><li ><h3>Work</h3></li></a>
+                <a href="#"><li ><h3>Fun</h3></li></a>
+                <a href="./contact-me.html"><li ><h3>Contact</h3></li></a>  
+            </nav>
+        </header>    
+
+        <section class="title">
+            <div>
+                <h1>Case Studies</h1>
+            </div>
+            <div class="hero-seal">
+                <img src="./images/seal1.svg" alt="traditional Chinese seal for the name Salt">
+            </div>
+        </section>
+
+
+        <section class="case-study">
+            <div>
+                <h3>Redesigning and developing a new website for a non-profit based in the UK and Democratic Republic of Congo (DRC)</h3>
+                <img src="./images/case-studies/TCT/the-congo-tree.svg" alt="image of a laptop and mobile phone with the TCT webpage displaying on their screen">
+            </div>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Project Overview
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      The Congo Tree is a youth development charity based in the Democratic Republic of Congo (DRC) and the UK. They equip young people in DRC with transferable life and leadership skills, support them with mentoring and encourage them to get involved in their community.
+We conducted competitor analysis and used user research to learn more about pain points users faced when using TCT’s existing website. The Congo Tree were excited to work with us and also shared their brand guidelines and some wishes for their website.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Identifying the problem
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        During user testing, we discovered that users were confused about the information they were seeing on the website and unable to use it on a mobile device.
+                        Therefore, we aim to improve information architecture, navigation and create a RWD solution.
+                        Our redesign of the Congo Tree website will set out to achieve greater user engagement and allow the non-profit to share its values and goals with more users.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Design Approach
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Honour the organisation’s identity and values
+                        Found inspiration from other websites
+                        Analysed TCT’s website, including accessibility and colours
+                        During user testing and interviews, we discovered that users were confused about the information they were seeing on the website and unable to read large chunks of it.
+Therefore, we believe that the website has poor information architecture and poor RWD when switching to mobile view. and that we might be able to help if we improve information architecture and create a RWD solution.
+
+                        
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Inspiration and prototyping
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    We conducted a series of 5s usability tests for users to get a feel for the initial prototype design, asking different users to perform the same tasks we set for the first usability test. 
+Once we got initial feedback we used it to iterate on our design when creating a completed clickable prototype. We found a number of issues regarding the footer and header colours and some layout, as well as issues with the layout (what and where) of the content on the page. 
+<img src="./images/case-studies/TCT/Project-Presentation-GP-2 (5).svg">
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    The solution
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    The final homepage design includes an array of features from each of our designs. 
+
+Unlike the current website design, we aimed for a more simple and straightforward look where the user can scroll to find out more. Simultaneously, trying to give the user the information they’re finding without looking for it. <br>
+
+
+                  </div>
+                </div>
+              </div>
+        </section>   
+    </div>
+
+    <footer class="footer">
+        <!-- footer has been divided into 'left' and 'right' sections for easier flex wrapping and alignment -->
+        <div class="footer-left">
+            <a href="index.html">
+                <div class="footer-logo">
+                    <img src="./images/logo-desktop.svg" id="footer-logo" alt="logo saying salt">
+                    <h4>UX/UI Designer &<br/>Creative Technologist</h4>
+                </div>
+            </a>
+            <div class="footer-info">
+                <h4>salt is a UX/UI designer and creative<br>technologist who has been based in<br>the UK, Malaysia, USA and Japan.</h4>
+            </div>
+            <a href="index.html">
+                <div class="footer-seal">
+                    <img src="./images/seal1.svg" id="footer-seal" alt="traditional Chinese seal for the name Salt">
+                </div>
+            </a>
+        </div>
+        <!-- this section should mirror available links in the main navigation - perhaps I will add more as time goes on? -->
+        <ul class="footer-navigation">
+            <a href="about.html"><li >About</li></a>
+            <a href="#"><li >Work</li></a>
+            <a href="#"><li >Fun</li></a>
+            <a href="./contact-me.html"><li >Contact</li></a> 
+        </ul> 
+        <div class="footer-right">
+            <ul class="footer-details">
+                <a href="#"><li>email address</li></a>
+                <a href="#"><li>phone number</li></a>
+                <a href="#"><li>résumé/CV</li></a>
+            </ul> 
+            <div class="socials-icons">
+                <a href="#"><img src="" alt="linkedin logo"></a>
+                <a href="#"><img src="" alt="medium logo"></a>
+                <a href="#"><img src="" alt="github logo"></a>
+            </div>
+        </div>
+    </footer>
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
