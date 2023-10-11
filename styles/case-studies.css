@@ -34,72 +34,7 @@
     display:none;
   }
 
-  #categoryGrid{
-    display: grid;
-    grid-template-rows: 500px 500px 500px 500px 500px 500px 500px 500px;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-      "row1"
-      "row2"
-      "row3"
-      "row4"
-      "row5"
-      "row6"
-      "row7"
-      "row8"
-      ;
-
-  }
-
-  .categoryGridArea{
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: grid;
-    align-content: end;
-    margin-bottom: 15px;
-  }
-
-  #row1{
-    grid-area: row1;
-    background-image: url("../images/case-studies/TCT/Project-Presentation-GP-2.svg");
-  }
-  
-  #row2{
-    grid-area: row2;
-    background-image: url("../images/case-studies/TCT/Project-Presentation-GP-2\ \(1\).svg");
-  }
-  
-  #row3{
-    grid-area: row3;
-    background-image: url("../images/case-studies/TCT/Project-Presentation-GP-2\ \(2\).svg");
-  }
-  
-  #row4{
-    grid-area: row4;
-    background-image: url("../images/case-studies/TCT/Project-Presentation-GP-2\ \(3\).svg");
-  }
-  
-  #row5{
-    grid-area: row5;
-    background-image: url("../images/case-studies/TCT/Project-Presentation-GP-2\ \(4\).svg");
-  }
-
-  #row6{
-    grid-area: row6;
-    background-image: url("../images/case-studies/TCT/Project-Presentation-GP-2\ \(5\).svg");
-  }
-  
-  #row7{
-    grid-area: row7;
-    background-image: url("../images/case-studies/TCT/Project-Presentation-GP-2\ \(6\).svg");
-  }
-  
-  #row8{
-    grid-area: row8;
-    background-image: url("../images/case-studies/TCT/Project-Presentation-GP-2\ \(7\).svg");
-  }
-
+ 
 /* 
    media queries ----------------------------------------------------------------------------------------------
    @media only screen and (max-width: 1000px) {

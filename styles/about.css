@@ -12,12 +12,7 @@
     padding-bottom: 0;
   }
 
-<<<<<<< Updated upstream
-  /* about --------------------------------------------------------------------------------------------- */
-
-=======
   /* about me content --------------------------------------------------------------------------------------------- */
->>>>>>> Stashed changes
 
   .about{
     padding-top: 75px;
@@ -39,10 +34,6 @@
     width: 30%;
   }
 
-<<<<<<< Updated upstream
-  .skills h4{
-    line-height: 0;
-=======
   /* target the styling for the ul and li, don't use h3 and h4s (for accessibility) */
   /* check width of content - should have a single container that detrmines the width of the content. quickfix is to put overflow-x in css, targeting the body tag.*/
  /* if i have width of 100%, padding will make the thing wider than the screen*/
@@ -69,7 +60,6 @@
   .skills ul{
    padding: 0;
    margin-top: 0;
->>>>>>> Stashed changes
   }
 
   .skills h3{
@@ -92,14 +82,4 @@
   .buttons{
     display: flex;
     gap: 50px;
-<<<<<<< Updated upstream
   }
-
-
-/* contact --------------------------------------------------------------------------------------------- */
-
-
-  
-=======
-  }
->>>>>>> Stashed changes
